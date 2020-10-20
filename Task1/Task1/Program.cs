@@ -102,6 +102,8 @@ namespace Test5
                     continue;
                 }
             }
+            Console.WriteLine("Для продолжения нажмите любую клавишу!");
+                            Console.ReadKey();
         }
     }
     class Students
